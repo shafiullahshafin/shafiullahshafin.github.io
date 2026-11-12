@@ -357,13 +357,12 @@ button {
 .brand-icon[data-brand='scholar'] { --brand: #4285f4; }
 .brand-icon[data-brand='orcid'] { --brand: #a6ce39; }
 .brand-icon[data-brand='researchgate'] { --brand: #00ccbb; }
-.brand-icon[data-brand='github'] { --brand: #181717; }
+.brand-icon[data-brand='github'] { --brand: #24292e; }
 .brand-icon[data-brand='linkedin'] { --brand: #0a66c2; }
-.brand-icon[data-brand='codeforces'] { --brand: #1f8acb; }
-.brand-icon[data-brand='codechef'] { --brand: #5b4638; }
+.brand-icon[data-brand='codeforces'] { --brand: #1a8fcd; }
+.brand-icon[data-brand='codechef'] { --brand: #5b4538; }
 :root[data-theme='dark'] .brand-icon[data-brand='github'] { --brand: #f0f6fc; }
-:root[data-theme='dark'] .brand-icon[data-brand='linkedin'] { --brand: #3b8fe0; }
-:root[data-theme='dark'] .brand-icon[data-brand='codechef'] { --brand: #b08968; }
+:root[data-theme='dark'] .brand-icon[data-brand='codechef'] { --brand: #a99675; }
 
 /* ───────────────────────────── News ───────────────────────────── */
 .news {
