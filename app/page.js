@@ -72,12 +72,9 @@ export default function Home() {
                   deployment. Besides, I build automated pipelines and handle large-scale data processing.
                 </p>
                 <p>
-                  Most of what I know comes from hands-on work, like solving problems, writing a lot of code and
-                  building prototypes to test ideas. Breaking complex problems into simpler parts and refining solutions
-                  step by step is how I usually work. Python and C++ are my main languages, with PyTorch and OpenCV for
-                  most of my vision work. Clear communication and teamwork matter to me, and during school and
-                  university I helped organize and volunteered at academic and technical events. Every day, I try to be
-                  a little better than yesterday.
+                  Python and C++ are my main languages, with PyTorch and OpenCV for most of my vision work. Clear
+                  communication and teamwork matter to me, and during school and university I helped organize and
+                  volunteered at academic and technical events.
                 </p>
                 <p>
                   Away from the desk, I travel whenever I can, go hiking, and spend time with friends. On slower days I
