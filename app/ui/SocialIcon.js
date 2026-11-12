@@ -1,4 +1,4 @@
-import { FaGithub, FaYoutube } from 'react-icons/fa6';
+import { FaGithub } from 'react-icons/fa6';
 import { SiResearchgate, SiCodechef } from 'react-icons/si';
 
 // Icons drawn in their sites' official logo colours.
@@ -63,7 +63,6 @@ const map = {
   linkedin: LinkedinLogo,
   codeforces: CodeforcesLogo,
   codechef: SiCodechef,
-  youtube: FaYoutube,
 };
 
 export default function SocialIcon({ id, size = 16 }) {

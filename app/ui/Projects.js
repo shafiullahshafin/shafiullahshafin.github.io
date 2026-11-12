@@ -1,4 +1,4 @@
-import { ExternalLink, PlayCircle } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa6';
 
 function Preview({ preview, name }) {
@@ -19,7 +19,6 @@ function Card({ p }) {
   // Order (left → right): external links, repository, then the year at the end.
   const links = [
     p.demo && { href: p.demo, label: 'Live demo', Icon: ExternalLink },
-    p.video && { href: p.video, label: 'Video walkthrough', Icon: PlayCircle },
     p.github && { href: p.github, label: 'Code on GitHub', Icon: FaGithub },
   ].filter(Boolean);
 
