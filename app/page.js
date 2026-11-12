@@ -67,18 +67,18 @@ export default function Home() {
                   My interest in research grew during my undergraduate years. Reading papers, testing ideas and
                   understanding why some approaches work better than others still excite me. My research spans software
                   engineering, particularly mining software repositories, and applied AI, including computer vision and
-                  medical image analysis, and I also serve as a reviewer for the MSR conference. At HawarIT, my work
-                  focuses on computer vision and 3D reconstruction, mainly object detection, segmentation and model
-                  deployment. Besides, I build automated pipelines and handle large-scale data processing.
+                  medical image analysis, and I also serve as a reviewer for the MSR conference.
                 </p>
                 <p>
-                  Python and C++ are my main languages, with PyTorch and OpenCV for most of my vision work. Clear
-                  communication and teamwork matter to me, and during school and university I helped organize and
-                  volunteered at academic and technical events.
+                  At HawarIT, my work focuses on computer vision and 3D reconstruction, mainly object detection,
+                  segmentation and model deployment. Besides, I build automated pipelines and handle large-scale data
+                  processing. Python and C++ are my main languages, with PyTorch and OpenCV for most of my vision work.
                 </p>
                 <p>
-                  Away from the desk, I travel whenever I can, go hiking, and spend time with friends. On slower days I
-                  watch movies or listen to podcasts. I also enjoy talking with strangers about anything at all.
+                  Clear communication and teamwork matter to me, and during school and university I helped organize and
+                  volunteered at academic and technical events. Away from the desk, I travel whenever I can, go hiking,
+                  and spend time with friends. On slower days I watch movies or listen to podcasts. I also enjoy talking
+                  with strangers about anything at all.
                 </p>
                 <p>
                   If you find my work relevant to your research, or would like to discuss a potential collaboration,
