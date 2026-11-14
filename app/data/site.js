@@ -223,7 +223,7 @@ export const projects = [
     name: 'Image2BIM',
     year: 2026,
     blurb:
-      'Turns indoor 360° panoramas and depth maps into IFC4 BIM models, LAS point clouds and measured 2D floor plans. It builds shared walls between rooms and cuts door and window openings that show correctly in Revit and BIMvision.',
+      'Turns indoor 360° panoramas and depth maps into IFC4 BIM models and measured 2D floor plans.',
     stack: ['Python', 'PyTorch', 'IfcOpenShell', 'OpenCV'],
     github: 'https://github.com/shafiullahshafin/Image2BIM',
     preview: { image: '/Image2BIM.svg' },
@@ -232,7 +232,7 @@ export const projects = [
     name: 'Maze Runner',
     year: 2026,
     blurb:
-      'A cross-platform desktop arcade game in Python/Pygame with difficulty levels, a lives system and a global leaderboard backed by PostgreSQL. Packaged as native apps for macOS, Windows and Linux.',
+      'A cross-platform desktop arcade game with difficulty levels and a global PostgreSQL leaderboard.',
     stack: ['Python', 'Pygame', 'PostgreSQL', 'PyInstaller'],
     github: 'https://github.com/shafiullahshafin/Maze-Runner',
     preview: { image: '/MazeRunner.svg' },
@@ -241,7 +241,7 @@ export const projects = [
     name: 'C Compiler',
     year: 2026,
     blurb:
-      'A compiler for a subset of C written in pure C11 that emits native ARM64 assembly for Apple Silicon. Hand-written lexer, recursive-descent parser to an AST, scoped symbol tables, AAPCS64 calling convention, recursion, arrays and variadic printf.',
+      'A compiler for a subset of C, written in C11, that generates native ARM64 assembly for Apple Silicon.',
     stack: ['C11', 'ARM64', 'AAPCS64', 'CMake'],
     github: 'https://github.com/shafiullahshafin/C-Compiler',
     preview: { image: '/CCompiler.svg' },
@@ -250,7 +250,7 @@ export const projects = [
     name: 'JARVIS',
     year: 2025,
     blurb:
-      'An AI assistant for computer science, algorithms, web development and research. A RAG pipeline over a curated CS knowledge base in Astra DB, combined with live web search and a Groq-hosted LLM for concise, goal-focused answers.',
+      'An AI assistant for computer science, combining a RAG knowledge base, live web search and an LLM.',
     stack: ['Next.js', 'TypeScript', 'RAG', 'Astra DB', 'Groq'],
     github: 'https://github.com/shafiullahshafin/JARVIS',
     demo: 'https://jarvis-cs.vercel.app/',
