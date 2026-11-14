@@ -67,8 +67,7 @@ export default function Home() {
                   My interest in research grew during my undergraduate years. Reading papers, testing ideas and
                   understanding why some approaches work better than others still excite me. My research spans software
                   engineering, particularly mining software repositories, and applied AI, including computer vision and
-                  medical image analysis, and I also serve on program committees in the software engineering research
-                  community.
+                  medical image analysis, and I also serve as a reviewer for software engineering conferences.
                 </p>
                 <p>
                   At HawarIT, my work focuses on computer vision and 3D reconstruction, mainly object detection,
