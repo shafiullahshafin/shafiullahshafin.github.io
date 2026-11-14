@@ -286,14 +286,14 @@ export const education = [
   {
     school: 'Cantonment Public School & College, Saidpur',
     degree: 'Higher Secondary Certificate (HSC)',
-    period: '2017 – 2019',
+    period: 'Jul 2017 – Jul 2019',
     score: 'GPA 5.00 / 5.00',
     location: 'Saidpur, Bangladesh',
   },
   {
     school: 'Ruhea High School, Thakurgaon',
     degree: 'Secondary School Certificate (SSC)',
-    period: '2015 – 2017',
+    period: 'Apr 2015 – May 2017',
     score: 'GPA 5.00 / 5.00',
     location: 'Thakurgaon, Bangladesh',
   },
