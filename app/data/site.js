@@ -105,7 +105,7 @@ export const publications = [
     authors: ['Md Shafiullah Shafin', 'Md Fazle Rabbi', 'S. M. Mahedy Hasan', 'Minhaz F. Zibran'],
     venue: '2025 IEEE/ACM 22nd International Conference on Mining Software Repositories (MSR)',
     venueShort: 'MSR 2025',
-    publisher: 'IEEE',
+    publisher: 'IEEE/ACM',
     pages: '275–279',
     year: 2025,
     location: 'Ottawa, Ontario, Canada',
