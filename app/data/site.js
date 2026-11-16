@@ -186,9 +186,7 @@ export const experience = [
     role: 'Software Engineer (R&D)',
     period: 'Apr 2026 – Present',
     current: true,
-    points: [
-      'Develop deep-learning models for GIS object detection, segmentation and 3D reconstruction with YOLO, Segment Anything (SAM) and DINOv2, and deploy them to production.',
-    ],
+    summary: 'Develop deep-learning models for GIS object detection, segmentation and 3D reconstruction with YOLO, Segment Anything (SAM) and DINOv2, and deploy them to production.',
   },
 ];
 
@@ -200,7 +198,7 @@ export const service = [
     href: 'https://2027.msrconf.org/committee/msr-2027-mining-challenge-mining-challenge',
     period: 'Nov 2026 – Present',
     current: true,
-    points: ['Review Mining Challenge submissions and take part in committee discussions on paper decisions.'],
+    summary: 'Review Mining Challenge submissions and take part in committee discussions on paper decisions.',
   },
   {
     org: '23rd International Conference on Mining Software Repositories (MSR 2026)',
@@ -208,9 +206,7 @@ export const service = [
     role: 'Junior Program Committee Member, Technical Papers',
     href: 'https://2026.msrconf.org/committee/msr-2026-junior-pc-technical-papers---junior-program-committee',
     period: 'Oct 2025 – Jan 2026',
-    points: [
-      'Reviewed Technical Papers submissions alongside the main Program Committee, joined the rebuttal discussions and received feedback on my reviews from senior members.',
-    ],
+    summary: 'Reviewed Technical Papers submissions alongside the main Program Committee, joined the rebuttal discussions and received feedback on my reviews from senior members.',
   },
 ];
 

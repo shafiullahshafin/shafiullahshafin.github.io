@@ -125,11 +125,7 @@ export default function Home() {
                     <p className="tl-org">
                       {e.org} · <span>{e.location}</span>
                     </p>
-                    <ul className="bullets">
-                      {e.points.map((p) => (
-                        <li key={p}>{p}</li>
-                      ))}
-                    </ul>
+                    <p className="tl-desc">{e.summary}</p>
                   </div>
                 )}
               />
@@ -166,11 +162,7 @@ export default function Home() {
                         </>
                       )}
                     </p>
-                    <ul className="bullets">
-                      {e.points.map((p) => (
-                        <li key={p}>{p}</li>
-                      ))}
-                    </ul>
+                    <p className="tl-desc">{e.summary}</p>
                   </div>
                 )}
               />

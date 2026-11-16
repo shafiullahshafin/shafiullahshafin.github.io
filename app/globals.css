@@ -47,7 +47,7 @@
   --line: #27282d;
   --line-strong: #35363c;
   --accent: #93afd9;
-  --accent-soft: rgba(147, 175, 217, 0.1);
+  --accent-soft: rgba(147, 175, 217, 0.14);
   --gold: #d2b46e;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 
@@ -460,7 +460,8 @@ button {
   font-weight: 600;
 }
 .news-type {
-  color: var(--faint);
+  color: var(--dot);
+  font-weight: 500;
 }
 
 .news-text {
@@ -650,7 +651,7 @@ button {
 .mini-title {
   font-size: 15px;
   font-weight: 600;
-  color: var(--text);
+  color: var(--accent);
 }
 .sub-title {
   margin: 20px 0 12px;
@@ -678,8 +679,9 @@ button {
 }
 .interests .tag-list li {
   border-color: transparent;
-  background: var(--surface-2);
-  color: var(--muted);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 500;
 }
 
 /* Publications */
@@ -927,26 +929,11 @@ button {
   font-weight: 600;
 }
 
-.bullets {
-  display: grid;
-  gap: 2px;
+.tl-desc {
   margin: 6px 0 4px;
   color: var(--muted);
 }
-.bullets li {
-  position: relative;
-  padding-left: 16px;
-}
-.bullets li::before {
-  content: '';
-  position: absolute;
-  left: 2px;
-  top: 0.7em;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: var(--faint);
-}
+
 
 .courses {
   margin: 10px 0 6px;
@@ -966,7 +953,7 @@ button {
 .course-code {
   flex-shrink: 0;
   width: 76px;
-  color: var(--faint);
+  color: var(--accent);
 }
 
 /* Projects */
@@ -1059,9 +1046,9 @@ button {
 .proj-stack li {
   padding: 1px 8px;
   border-radius: 6px;
-  background: var(--surface-2);
+  background: var(--accent-soft);
   font-size: 12.5px;
-  color: var(--muted);
+  color: var(--accent);
 }
 /* Honors */
 .honors {
