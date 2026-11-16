@@ -353,6 +353,9 @@ button {
 .brand-icon svg {
   filter: saturate(0.75);
 }
+:root[data-theme='dark'] .brand-icon svg {
+  filter: saturate(0.6) brightness(0.9);
+}
 .brand-icon[data-brand='scholar'] { --brand: #3f6fb5; }
 .brand-icon[data-brand='orcid'] { --brand: #6f8f2e; }
 .brand-icon[data-brand='researchgate'] { --brand: #2a8079; }
@@ -994,6 +997,9 @@ button {
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+:root[data-theme='dark'] .proj-preview-img img {
+  filter: brightness(0.88);
 }
 
 .proj-body {
