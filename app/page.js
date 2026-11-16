@@ -70,9 +70,8 @@ export default function Home() {
                   medical image analysis, and I also serve as a reviewer for software engineering conferences.
                 </p>
                 <p>
-                  At HawarIT, my work focuses on computer vision and 3D reconstruction, mainly object detection,
-                  segmentation and model deployment. Besides, I build automated pipelines and handle large-scale data
-                  processing. Python and C++ are my main languages, with PyTorch and OpenCV for most of my vision work.
+                  Alongside model work, I build automated pipelines for large-scale data processing. Python and C++ are
+                  my main languages, and PyTorch and OpenCV cover most of my vision work.
                 </p>
                 <p>
                   Clear communication and teamwork matter to me, and during school and university I helped organize and
