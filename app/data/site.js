@@ -1,8 +1,6 @@
-// ─────────────────────────────────────────────────────────────────────────────
 //  Single source of truth for the portfolio.
 //  To post an update: add an object to the TOP of `news` and redeploy.
 //  Everything else on the site (stats, counts, filters) is derived from here.
-// ─────────────────────────────────────────────────────────────────────────────
 
 export const profile = {
   name: 'Md. Shafiullah Shafin',

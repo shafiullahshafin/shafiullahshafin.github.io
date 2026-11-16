@@ -55,7 +55,7 @@ export default function Home() {
           <TopBar />
 
           <main className="content">
-            {/* ── About ─────────────────────────────────────────── */}
+            {/* About */}
             <Section id="about" title="About">
               <div className="prose">
                 <p>
@@ -96,7 +96,7 @@ export default function Home() {
               </div>
             </Section>
 
-            {/* ── Publications ──────────────────────────────────── */}
+            {/* Publications */}
             <Section
               id="publications"
 
@@ -113,7 +113,7 @@ export default function Home() {
               <Publications items={publications} self={profile.pubName} />
             </Section>
 
-            {/* ── Experience & Service ──────────────────────────── */}
+            {/* Experience & Service */}
             <Section id="experience" title="Experience">
               <Timeline
                 items={experience}
@@ -177,7 +177,7 @@ export default function Home() {
               />
             </Section>
 
-            {/* ── Education ─────────────────────────────────────── */}
+            {/* Education */}
             <Section id="education" title="Education">
               <Timeline
                 items={education}
@@ -213,7 +213,7 @@ export default function Home() {
               />
             </Section>
 
-            {/* ── Honors ────────────────────────────────────────── */}
+            {/* Honors */}
             <Section id="honors" title="Honors & Awards">
               <ul className="honors">
                 {honors.map((h) => (
@@ -243,7 +243,7 @@ export default function Home() {
               </ul>
             </Section>
 
-            {/* ── Projects ──────────────────────────────────────── */}
+            {/* Projects */}
             <Section
               id="projects"
 
@@ -260,7 +260,7 @@ export default function Home() {
               <Projects items={projects} />
             </Section>
 
-            {/* ── Skills ────────────────────────────────────────── */}
+            {/* Skills */}
             <Section id="skills" title="Skills">
               <div className="skills">
                 {skills.map((g) => (

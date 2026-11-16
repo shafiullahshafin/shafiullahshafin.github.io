@@ -1,29 +1,29 @@
-/* ─────────────────────────────────────────────────────────────────────────────
+/*
    One typeface (Inter). Hierarchy comes from size, weight and colour only.
    Type scale:  22 section · 16 item title · 15 body · 13.5 meta · 12.5 small
    Monospace is used only for real code (BibTeX, terminal preview).
-   ───────────────────────────────────────────────────────────────────────────── */
+*/
 
 :root {
   --bg: #f7f7f5;
   --surface: #ffffff;
   --surface-2: #f2f2ef;
-  --text: #1c1c1a;
-  --muted: #55554f;
-  --faint: #85857d;
+  --text: #222220;
+  --muted: #4b4b46;
+  --faint: #6f6f68;
   --line: #e6e5e0;
   --line-strong: #d6d5ce;
   --accent: #2f5d8f;
   --accent-soft: rgba(47, 93, 143, 0.08);
-  --gold: #9a6b00;
+  --gold: #8a6a1f;
   --shadow: 0 1px 2px rgba(20, 20, 18, 0.04);
 
-  --c-paper: #2f6fb2;
-  --c-award: #b07a00;
-  --c-career: #2f8a55;
-  --c-service: #7a53b8;
-  --c-release: #2f5d8f;
-  --c-milestone: #198a8a;
+  --c-paper: #2f5d8f;
+  --c-award: #8a6a1f;
+  --c-career: #3d7556;
+  --c-service: #65568f;
+  --c-release: #56687d;
+  --c-milestone: #2e6f70;
 
   --radius: 12px;
   --radius-sm: 8px;
@@ -41,27 +41,27 @@
   --bg: #111214;
   --surface: #17181b;
   --surface-2: #1e1f23;
-  --text: #ebebe8;
-  --muted: #a9a9a2;
-  --faint: #7c7c76;
+  --text: #e4e4e0;
+  --muted: #b2b2ab;
+  --faint: #8a8a83;
   --line: #27282d;
   --line-strong: #35363c;
   --accent: #93afd9;
   --accent-soft: rgba(147, 175, 217, 0.1);
-  --gold: #e3b54a;
+  --gold: #d2b46e;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 
-  --c-paper: #6ea8e8;
-  --c-award: #e3b54a;
-  --c-career: #5fc48a;
-  --c-service: #ad8be6;
-  --c-release: #93afd9;
-  --c-milestone: #4fc4c4;
+  --c-paper: #93afd9;
+  --c-award: #d2b46e;
+  --c-career: #93c2a6;
+  --c-service: #b3a8d6;
+  --c-release: #a8b5c6;
+  --c-milestone: #8fc1c1;
 
   color-scheme: dark;
 }
 
-/* ───────────────────────────── Base ───────────────────────────── */
+/* Base */
 *,
 *::before,
 *::after {
@@ -218,7 +218,7 @@ button {
   display: none;
 }
 
-/* ───────────────────────────── Shell ───────────────────────────── */
+/* Shell */
 .shell {
   display: grid;
   grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
@@ -244,7 +244,7 @@ button {
   max-width: var(--content-w);
 }
 
-/* ───────────────────────────── Profile ───────────────────────────── */
+/* Profile */
 .profile {
   flex-shrink: 0;
   padding: 20px;
@@ -308,16 +308,16 @@ button {
   color: var(--faint);
 }
 .contact-list .ico-mail {
-  color: #ea4335;
+  color: #a9564d;
 }
 .contact-list .ico-location {
-  color: #34a853;
+  color: #3d7556;
 }
 :root[data-theme='dark'] .contact-list .ico-mail {
-  color: #f28b82;
+  color: #d9a29b;
 }
 :root[data-theme='dark'] .contact-list .ico-location {
-  color: #81c995;
+  color: #93c2a6;
 }
 .contact-list a {
   min-width: 0;
@@ -350,17 +350,25 @@ button {
   border-color: var(--brand, var(--accent));
   background: color-mix(in srgb, var(--brand, var(--accent)) 10%, transparent);
 }
-.brand-icon[data-brand='scholar'] { --brand: #4285f4; }
-.brand-icon[data-brand='orcid'] { --brand: #a6ce39; }
-.brand-icon[data-brand='researchgate'] { --brand: #00ccbb; }
-.brand-icon[data-brand='github'] { --brand: #24292e; }
-.brand-icon[data-brand='linkedin'] { --brand: #0a66c2; }
-.brand-icon[data-brand='codeforces'] { --brand: #1a8fcd; }
+.brand-icon svg {
+  filter: saturate(0.75);
+}
+.brand-icon[data-brand='scholar'] { --brand: #3f6fb5; }
+.brand-icon[data-brand='orcid'] { --brand: #6f8f2e; }
+.brand-icon[data-brand='researchgate'] { --brand: #2a8079; }
+.brand-icon[data-brand='github'] { --brand: #2f3338; }
+.brand-icon[data-brand='linkedin'] { --brand: #2f64a3; }
+.brand-icon[data-brand='codeforces'] { --brand: #2f75a3; }
 .brand-icon[data-brand='codechef'] { --brand: #5b4538; }
-:root[data-theme='dark'] .brand-icon[data-brand='github'] { --brand: #f0f6fc; }
-:root[data-theme='dark'] .brand-icon[data-brand='codechef'] { --brand: #a99675; }
+:root[data-theme='dark'] .brand-icon[data-brand='scholar'] { --brand: #93afd9; }
+:root[data-theme='dark'] .brand-icon[data-brand='orcid'] { --brand: #b5c98a; }
+:root[data-theme='dark'] .brand-icon[data-brand='researchgate'] { --brand: #8fc1bc; }
+:root[data-theme='dark'] .brand-icon[data-brand='github'] { --brand: #e3e5e8; }
+:root[data-theme='dark'] .brand-icon[data-brand='linkedin'] { --brand: #93afd9; }
+:root[data-theme='dark'] .brand-icon[data-brand='codeforces'] { --brand: #93b9d6; }
+:root[data-theme='dark'] .brand-icon[data-brand='codechef'] { --brand: #b3a284; }
 
-/* ───────────────────────────── News ───────────────────────────── */
+/* News */
 .news {
   display: flex;
   flex-direction: column;
@@ -449,8 +457,7 @@ button {
   font-weight: 600;
 }
 .news-type {
-  color: var(--dot);
-  font-weight: 500;
+  color: var(--faint);
 }
 
 .news-text {
@@ -485,7 +492,7 @@ button {
   text-underline-offset: 3px;
 }
 
-/* ───────────────────────────── Top bar ───────────────────────────── */
+/* Top bar */
 /* Opaque band pinned to the top: content scrolls underneath, never through. */
 .topbar {
   position: sticky;
@@ -571,7 +578,7 @@ button {
   background: var(--accent);
 }
 
-/* ───────────────────────────── Sections ───────────────────────────── */
+/* Sections */
 .content {
   padding: 4px 4px 0;
 }
@@ -640,7 +647,7 @@ button {
 .mini-title {
   font-size: 15px;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--text);
 }
 .sub-title {
   margin: 20px 0 12px;
@@ -668,12 +675,11 @@ button {
 }
 .interests .tag-list li {
   border-color: transparent;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-weight: 500;
+  background: var(--surface-2);
+  color: var(--muted);
 }
 
-/* ───────────────────────────── Publications ───────────────────────────── */
+/* Publications */
 .pub-list {
   display: grid;
   gap: 10px;
@@ -841,7 +847,7 @@ button {
   color: var(--muted);
 }
 
-/* ───────────────────────────── Timeline ───────────────────────────── */
+/* Timeline */
 .timeline {
   position: relative;
   display: grid;
@@ -871,10 +877,6 @@ button {
   border-radius: 50%;
   background: var(--bg);
   border: 2px solid var(--accent);
-  opacity: 0.55;
-}
-.tl-item.is-current .tl-dot {
-  opacity: 1;
 }
 .tl-item.is-current .tl-dot {
   border-color: var(--accent);
@@ -961,11 +963,10 @@ button {
 .course-code {
   flex-shrink: 0;
   width: 76px;
-  color: var(--accent);
-  opacity: 0.8;
+  color: var(--faint);
 }
 
-/* ───────────────────────────── Projects ───────────────────────────── */
+/* Projects */
 .proj-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1052,11 +1053,11 @@ button {
 .proj-stack li {
   padding: 1px 8px;
   border-radius: 6px;
-  background: var(--accent-soft);
+  background: var(--surface-2);
   font-size: 12.5px;
-  color: var(--accent);
+  color: var(--muted);
 }
-/* ───────────────────────────── Honors ───────────────────────────── */
+/* Honors */
 .honors {
   display: grid;
 }
@@ -1084,7 +1085,7 @@ button {
   color: var(--text);
 }
 
-/* ───────────────────────────── Skills ───────────────────────────── */
+/* Skills */
 .skills {
   display: grid;
   gap: 10px;
@@ -1113,7 +1114,7 @@ button {
   color: var(--faint);
 }
 
-/* ───────────────────────────── Motion ───────────────────────────── */
+/* Motion */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -1125,7 +1126,7 @@ button {
   }
 }
 
-/* ───────────────────────────── Responsive ───────────────────────────── */
+/* Responsive */
 @media (max-width: 1180px) {
   :root {
     --sidebar-w: 320px;
@@ -1212,7 +1213,7 @@ button {
   }
 }
 
-/* ───────────────────────────── 404 ───────────────────────────── */
+/* 404 */
 .not-found {
   display: grid;
   place-items: center;
