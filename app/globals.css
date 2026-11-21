@@ -289,8 +289,10 @@ button {
 .profile-org {
   color: var(--muted);
 }
-.profile-org a:hover {
+.profile-org a {
   color: var(--accent);
+}
+.profile-org a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
