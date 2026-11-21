@@ -15,7 +15,6 @@ import Sidebar from './ui/Sidebar';
 import TopBar from './ui/TopBar';
 import Publications from './ui/Publications';
 import Projects from './ui/Projects';
-import Signature from './ui/Signature';
 import RichText from './ui/RichText';
 
 function Section({ id, title, kicker, children }) {
@@ -84,7 +83,6 @@ export default function Home() {
                   If you find my work relevant to your research, or would like to discuss a potential collaboration,
                   please feel free to get in touch. I promise to reply faster than Reviewer 2.
                 </p>
-                <Signature className="signoff" />
               </div>
 
               <div className="interests">
