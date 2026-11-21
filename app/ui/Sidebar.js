@@ -22,7 +22,15 @@ export default function Sidebar() {
             <div className="profile-id">
               <h1 className="profile-name">{profile.name}</h1>
               <p className="profile-role">{profile.role}</p>
-              <p className="profile-org">{profile.org}</p>
+              <p className="profile-org">
+                {profile.orgUrl ? (
+                  <a href={profile.orgUrl} target="_blank" rel="noopener noreferrer">
+                    {profile.org}
+                  </a>
+                ) : (
+                  profile.org
+                )}
+              </p>
             </div>
           </div>
 

@@ -9,6 +9,7 @@ export const profile = {
   shortName: 'Shafin',
   role: 'Software Engineer (R&D)',
   org: 'HawarIT Limited',
+  orgUrl: 'https://www.hawarit.com/',
   location: 'Dhaka, Bangladesh',
   email: 'shafiullahshafin735@gmail.com',
   photo: '/DP.jpg',
