@@ -182,7 +182,7 @@ export const publications = [
 export const experience = [
   {
     org: 'HawarIT Limited',
-    href: 'https://www.hawarit.com/',
+    href: 'https://cloud.hawarit.com/u/m.shafiullah',
     location: 'Dhaka, Bangladesh',
     role: 'Software Engineer (R&D)',
     period: 'Apr 2026 – Present',

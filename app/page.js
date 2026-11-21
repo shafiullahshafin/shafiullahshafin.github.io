@@ -134,12 +134,25 @@ export default function Home() {
                 render={(e) => (
                   <div className="tl-body">
                     <div className="tl-row">
-                      <h3>{e.role}</h3>
+                      <h3>
+                        {e.role}
+                        {e.href && (
+                          <a
+                            href={e.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-link"
+                            aria-label={`${e.role}: staff profile`}
+                            title="Staff profile"
+                          >
+                            <ArrowUpRight size={14} aria-hidden="true" />
+                          </a>
+                        )}
+                      </h3>
                       <span className="tl-date">{e.period}</span>
                     </div>
                     <p className="tl-org">
-                      {e.org}
-                      <SiteLink href={e.href} name={e.org} /> · <span>{e.location}</span>
+                      {e.org} · <span>{e.location}</span>
                     </p>
                     <p className="tl-desc">{e.summary}</p>
                   </div>
