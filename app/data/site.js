@@ -182,6 +182,7 @@ export const publications = [
 export const experience = [
   {
     org: 'HawarIT Limited',
+    href: 'https://www.hawarit.com/',
     location: 'Dhaka, Bangladesh',
     role: 'Software Engineer (R&D)',
     period: 'Apr 2026 – Present',
@@ -254,6 +255,7 @@ export const projects = [
 export const education = [
   {
     school: 'Rajshahi University of Engineering & Technology (RUET)',
+    href: 'https://www.ruet.ac.bd/',
     degree: 'B.Sc. in Computer Science & Engineering',
     period: 'Jan 2020 – Jun 2025',
     score: 'CGPA 3.34 / 4.00',
@@ -278,6 +280,7 @@ export const education = [
   },
   {
     school: 'Cantonment Public School & College, Saidpur',
+    href: 'https://www.cpscs.edu.bd/',
     degree: 'Higher Secondary Certificate (HSC)',
     period: 'Jul 2017 – Jul 2019',
     score: 'GPA 5.00 / 5.00',

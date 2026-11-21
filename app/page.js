@@ -17,6 +17,22 @@ import Publications from './ui/Publications';
 import Projects from './ui/Projects';
 import RichText from './ui/RichText';
 
+function SiteLink({ href, name }) {
+  if (!href) return null;
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-link"
+      aria-label={`${name}: official website`}
+      title="Official website"
+    >
+      <ArrowUpRight size={14} aria-hidden="true" />
+    </a>
+  );
+}
+
 function Section({ id, title, kicker, children }) {
   return (
     <section id={id} className="section" aria-labelledby={`${id}-title`}>
@@ -122,7 +138,8 @@ export default function Home() {
                       <span className="tl-date">{e.period}</span>
                     </div>
                     <p className="tl-org">
-                      {e.org} · <span>{e.location}</span>
+                      {e.org}
+                      <SiteLink href={e.href} name={e.org} /> · <span>{e.location}</span>
                     </p>
                     <p className="tl-desc">{e.summary}</p>
                   </div>
@@ -174,7 +191,10 @@ export default function Home() {
                 render={(e) => (
                   <div className="tl-body">
                     <div className="tl-row">
-                      <h3>{e.school}</h3>
+                      <h3>
+                        {e.school}
+                        <SiteLink href={e.href} name={e.school} />
+                      </h3>
                       <span className="tl-date">{e.period}</span>
                     </div>
                     <p className="tl-org">
