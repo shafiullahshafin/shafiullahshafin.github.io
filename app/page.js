@@ -67,16 +67,15 @@ export default function Home() {
                   My interest in research grew during my undergraduate years. Reading papers, testing ideas and
                   understanding why some approaches work better than others still excite me. My research spans software
                   engineering, particularly mining software repositories, and applied AI, including computer vision and
-                  medical image analysis, and I also serve as a reviewer for software engineering conferences.
+                  medical image analysis. I also review for software engineering conferences.
                 </p>
                 <p>
                   Alongside model work, I build automated pipelines for large-scale data processing. Python and C++ are
                   my main languages, and PyTorch and OpenCV cover most of my vision work.
                 </p>
                 <p>
-                  Clear communication and teamwork matter to me, and during school and university I helped organize and
-                  volunteered at academic and technical events. Away from the desk, I travel whenever I can, go hiking,
-                  and spend time with friends. On slower days I watch movies or listen to podcasts. I also enjoy talking
+                  During school and university I helped organize and volunteered at academic and technical events. Away
+                  from the desk, I travel whenever I can, go hiking and spend time with friends. On slower days I watch movies or listen to podcasts. I also enjoy talking
                   with strangers about anything at all.
                 </p>
                 <p>

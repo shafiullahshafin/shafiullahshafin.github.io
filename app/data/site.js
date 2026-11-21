@@ -1,6 +1,5 @@
 //  Single source of truth for the portfolio.
 //  To post an update: add an object to the TOP of `news` and redeploy.
-//  Everything else on the site (stats, counts, filters) is derived from here.
 
 export const profile = {
   name: 'Md. Shafiullah Shafin',
@@ -211,7 +210,7 @@ export const service = [
   },
 ];
 
-// preview: { image } shown as the card header (16:9)
+// preview: { image } shown as the card header
 export const projects = [
   {
     name: 'Image2BIM',
@@ -259,7 +258,7 @@ export const education = [
     period: 'Jan 2020 – Jun 2025',
     score: 'CGPA 3.34 / 4.00',
     location: 'Rajshahi, Bangladesh',
-    note: '**Activities:** Competitive programming, Research in medical imaging & software engineering',
+    note: '**Activities:** Competitive programming, research in medical imaging & software engineering',
     courses: [
       { code: 'CSE 3101', name: 'Database Systems' },
       { code: 'CSE 3209', name: 'Artificial Intelligence' },

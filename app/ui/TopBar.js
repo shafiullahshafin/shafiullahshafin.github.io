@@ -16,7 +16,7 @@ export const SECTIONS = [
 export default function TopBar() {
   const [active, setActive] = useState('about');
   // While a nav click is scrolling the page, keep the clicked tab active.
-  // Short last sections (Skills, Contact) can't reach the top, so scroll-based
+  // Short last sections (like Skills) can't reach the top, so scroll-based
   // detection alone would highlight the wrong tab.
   const clickLock = useRef(false);
 

@@ -218,7 +218,6 @@ THEMES = {
     'JARVIS': ('#49416c', '#393357', '#c5bedd', '#ebe9f3'),
 }
 
-# name -> (illustration, visual centre of the illustration in its own coordinates)
 # name -> (illustration, visual centre of the illustration, backdrop)
 COVERS = {
     'Image2BIM': (image2bim_art, (1150, 520), bg_blueprint),
