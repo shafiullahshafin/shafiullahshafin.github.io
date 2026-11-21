@@ -654,6 +654,14 @@ button {
   color: var(--muted);
 }
 
+.signoff {
+  display: block;
+  width: auto;
+  height: 30px;
+  margin-top: 2px;
+  color: var(--text);
+}
+
 .sub-title,
 .mini-title {
   font-size: 15px;
